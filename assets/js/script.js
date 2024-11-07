@@ -66,7 +66,7 @@ $(document).ready(function () {
     });
 
     // Load the audio file
-    wavesurfer.load('./assets/audio/spunk_score_final.wav'); // Replace with the path to your audio file
+    wavesurfer.load('./assets/audio/spunk_score_final.mp3'); // Replace with the path to your audio file
 
     // Play/Pause functionality
     document.getElementById('play-button').addEventListener('click', () => {
