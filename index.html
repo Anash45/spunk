@@ -77,14 +77,10 @@
         </section>
         <section class="video-sec d-flex flex-column gap-4 mt-md-3">
             <h3 class="sec-title mb-md-2 text-center fw-medium">Explore the <span class="text-brown">Film</span></h3>
-            <div class="video-thumbnail" style="position: relative; cursor: pointer;">
-                <img src="./assets/img/video-poster-1.png" alt="Video Thumbnail" style="width: 100%;">
-                <div class="play-icon"><img src="./assets/img/play-icon.svg" height="80" alt="Icon"
-                        class="play-icon-img"></div>
-                <video id="player" class="plyr__video-embed player" preload="none" controls style="display: none;">
-                    <source src="https://www.f4futuretech.com/files/spunk/Spunk--Final%20Video--3.mp4" type="video/mp4">
-                </video>
-            </div>
+            <iframe
+                src="https://player.vimeo.com/video/1027335956?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                frameborder="0" class="w-100 video-iframe"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Spunk"></iframe>
         </section>
         <section class="py-5 mt-md-5">
             <div class="container">
@@ -93,7 +89,68 @@
                             class="text-orange">Creative Process</span></h3>
                     <div class="mb-lg-4 pb-lg-3 row align-items-center flex-lg-row flex-column-reverse">
                         <div class="col-lg-6 pe-xxl-5">
-                            <img src="./assets/img/img-1.png" alt="Img" class="w-100 img-fluid">
+                            <div id="carousel-1" class="carousel slide" data-bs-ride="carousel">
+                                <!-- Carousel Inner (Slides) -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="px-5">
+                                            <img src="./assets/img/environment/joe-clark-620.jpg" class="d-block w-100"
+                                                alt="First Slide">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="px-5">
+                                            <img src="./assets/img/environment/joeclarks-store.png"
+                                                class="d-block w-100" alt="First Slide">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="px-5">
+                                            <img src="./assets/img/environment/lenas-house.png" class="d-block w-100"
+                                                alt="First Slide">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="px-5">
+                                            <img src="./assets/img/environment/NewLevelSequence22.0001.png"
+                                                class="d-block w-100" alt="First Slide">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="px-5">
+                                            <img src="./assets/img/environment/NewLevelSequence36.0001.png"
+                                                class="d-block w-100" alt="First Slide">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="px-5">
+                                            <img src="./assets/img/environment/revhaynes-church.png"
+                                                class="d-block w-100" alt="First Slide">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="px-5">
+                                            <img src="./assets/img/environment/Screenshot 2024-09-13 at 11.32.02ΓÇ»AM.png"
+                                                class="d-block w-100" alt="First Slide">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="px-5">
+                                            <img src="./assets/img/environment/service-pnp-fsa-8b20000-8b20200-8b20258v.jpg"
+                                                class="d-block w-100" alt="First Slide">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Controls/Arrows -->
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-1"
+                                    data-bs-slide="prev">
+                                    <img src="./assets/img/prev-icon.png" alt="Previous">
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel-1"
+                                    data-bs-slide="next">
+                                    <img src="./assets/img/next-icon.png" alt="Next">
+                                </button>
+                            </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="d-flex flex-column gap-lg-4 gap-3 ps-xl-5 pb-lg-0 pb-4">
@@ -132,7 +189,86 @@
                             </div>
                         </div>
                         <div class="col-lg-6 ps-xxl-5">
-                            <img src="./assets/img/img-2.png" alt="Img" class="w-100 img-fluid">
+                            <div id="carousel-2" class="carousel slide" data-bs-ride="carousel">
+                                <!-- Carousel Inner (Slides) -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="px-5">
+                                            <img src="./assets/img/characters/background-character.png"
+                                                class="d-block w-100" alt="First Slide">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="px-5">
+                                            <img src="./assets/img/characters/joe-character.png" class="d-block w-100"
+                                                alt="First Slide">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="px-5">
+                                            <img src="./assets/img/characters/lenas-dress.png" class="d-block w-100"
+                                                alt="First Slide">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="px-5">
+                                            <img src="./assets/img/characters/master-pnp-ppmsc-00300-00374u.jpg"
+                                                class="d-block w-100" alt="First Slide">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="px-5">
+                                            <img src="./assets/img/characters/master-pnp-ppmsc-00500-00591u.jpg"
+                                                class="d-block w-100" alt="First Slide">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="px-5">
+                                            <img src="./assets/img/characters/master-pnp-ppmsc-00500-00594u.jpg"
+                                                class="d-block w-100" alt="First Slide">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="px-5">
+                                            <img src="./assets/img/characters/service-pnp-fsa-8b21000-8b21700-8b21734v.jpg"
+                                                class="d-block w-100" alt="First Slide">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="px-5">
+                                            <img src="./assets/img/characters/service-pnp-ppmsc-00300-00378v.jpg"
+                                                class="d-block w-100" alt="First Slide">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="px-5">
+                                            <img src="./assets/img/characters/service-pnp-ppmsc-00300-00382v.jpg"
+                                                class="d-block w-100" alt="First Slide">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="px-5">
+                                            <img src="./assets/img/characters/service-pnp-ppmsc-00500-00597r.jpg"
+                                                class="d-block w-100" alt="First Slide">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="px-5">
+                                            <img src="./assets/img/characters/spunk.png" class="d-block w-100"
+                                                alt="First Slide">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Controls/Arrows -->
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2"
+                                    data-bs-slide="prev">
+                                    <img src="./assets/img/prev-icon.png" alt="Previous">
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel-2"
+                                    data-bs-slide="next">
+                                    <img src="./assets/img/next-icon.png" alt="Next">
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div class="row align-items-center flex-lg-row flex-column-reverse">
@@ -140,7 +276,10 @@
                             <div class="audio-player">
                                 <div id="waveform"></div>
                                 <button id="play-button" class="btn p-0">
-                                    <img src="./assets/img/play-icon.svg" height="60" alt="">
+                                    <img src="./assets/img/play-icon.svg" id="icon-play" style="display: inline;"
+                                        height="60" alt="Icon">
+                                    <img src="./assets/img//pause.png" id="icon-pause" style="display: none;"
+                                        height="60" alt="Icon">
                                 </button>
                             </div>
                         </div>
